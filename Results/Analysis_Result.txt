@@ -1,0 +1,73 @@
+1> key driver
+----------------
+#From heatmap we Get
+
+Top 3 drivers of happiness: Economy, Life Expectancy, Social Support.
+
+Secondary contributors: Freedom, Trust in Government.
+
+Least impactful globally: Generosity and Year.
+
+2>Year wise analysis
+----------------------------------------------------------
+#Average Happiness Score by Year
+“Global happiness remained fairly stable between 2015–2018, averaging around 5.4. After a slight dip in 2016, scores improved, suggesting a mild upward trend in global well-being.”
+
+#Top & Bottom Countries by Year
+
+“The happiest nations are consistently Nordic, with Finland leading from 2017 onward. In contrast, the least happy countries remain in conflict-affected regions like Burundi and Afghanistan, 
+highlighting persistent inequality. While top scores inch upward, bottom scores remain stagnant, maintaining a 4.5-point happiness gap worldwide.”
+
+
+Year	Top Country	Top Score	Bottom Country	Bottom Score
+0	2015	Switzerland	7.587	Togo	2.839
+0	2016	Denmark	7.526	Burundi	2.905
+0	2017	Norway	7.537	Burundi	2.905
+0	2018	Finland	7.632	Burundi	2.905
+0	2019	Finland	7.769	Afghanistan	3.203
+
+3>Regional Analysis
+----------------------------------------------------
+#Average Happiness Score by Region
+Happiness is highest in Australia & New Zealand, North America, and Western Europe (scores above 7), reflecting strong economies and social support. Latin America, the Caribbean, 
+and Eastern Asia fall in the mid-range, with cultural and social bonds contributing positively. The lowest scores are seen in Sub-Saharan Africa, Southern Asia, and the Middle East & North Africa, 
+where poverty and instability are key challenges. The 3+ point gap between the happiest and least happy regions highlights stark global inequality.
+#Regional Happiness Changes (2015–2019)
+
+📈 Most Improved Region
+
+Sub-Saharan Africa: +0.26 (from 4.12 → 4.38)
+→ Suggests modest gains despite ongoing challenges.
+
+📉 Most Declined Region
+
+Latin America & Caribbean: –0.19 (from 6.14 → 5.94)
+→ Decline could be tied to political/economic instability.
+
+4>Dystopia Residual
+-------------------------------------------------------
+#Do the happiest countries have lower or higher dystopia residuals compared to others?
+
+Avg Dystopia Residual (Top 10% Happiest Countries): 2.4909066713037618
+Avg Dystopia Residual (Other Countries): 1.9636542023190637
+❌ Happiest countries do NOT have lower Dystopia Residual.
+
+5>Country wise analysis
+--------------------------------------
+#Who’s happiest/least happy on average
+📈 Happiest Country (2015–2019 Average): Denmark with score 7.546
+📉 Least Happy Country (2015–2019 Average): Burundi with score 3.079
+
+#clustering using k means
+
+
+6>feature importance
+------------------------------------------
+#              Feature  Importance
+0            Economy    0.435038
+5    Life Expectancy    0.241850
+6  Dystopia Residual    0.168707
+1     Social Support    0.055807
+2            Freedom    0.045116
+4      Trust On Govt    0.030956
+3         Generosity    0.022527
