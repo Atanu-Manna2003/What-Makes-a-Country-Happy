@@ -21,7 +21,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     # Replace with your actual file path
-    dataset = pd.read_csv(r"Data\Cleand_Dataset_World_Happiness.csv")
+    dataset = pd.read_csv("https://github.com/Atanu-Manna2003/What-Makes-a-Country-Happy/blob/main/Data/Cleand_Dataset_World_Happiness.csv")
     return dataset
 
 dataset = load_data()
